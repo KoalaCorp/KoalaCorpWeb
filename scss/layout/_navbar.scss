@@ -5,22 +5,22 @@
   font-family: $headings-font-family;
   font-weight: $headings-font-weight;
   .navbar-brand {
-    color: $white;
+    color: $primary;
   }
   .navbar-nav {
     margin-top: 1rem;
     li.nav-item {
       a.nav-link {
-        color: $white;
+        color: $primary;
         &:hover {
-          color: $primary;
+          color: $yellow;
         }
         &:active,
         &:focus {
-          color: $white;
+          color: $primary;
         }
         &.active {
-          color: $primary;
+          color: $light;
         }
       }
     }
@@ -43,13 +43,13 @@
       margin-top: 0;
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
-      color: $white;
-      background: $primary;
+      color: $primary;
+      background: $yellow;
       &:active,
       &:focus,
       &:hover {
         color: $white;
-        background: $primary;
+        background: $yellow;
       }
     }
   }
