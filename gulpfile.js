@@ -18,9 +18,10 @@ const pkg = require('./package.json');
 
 // Set the banner content
 const banner = ['/*!\n',
-  ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
-  ' * Copyright 2013-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
-  ' * Licensed under <%= pkg.license %> (https://github.com/BlackrockDigital/<%= pkg.name %>/blob/master/LICENSE)\n',
+  ' * Koala Corp - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
+  ' * Copyright ' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
+  ' * Licensed under <%= pkg.license %> (https://https://github.com/KoalaCorp/<%= pkg.name %>/blob/master/LICENSE)\n',
+  ' * Web design based on the theme Start Bootstrap - Freelancer v5.1.3 (https://startbootstrap.com/template-overviews/freelancer) :D\n',
   ' */\n',
   '\n'
 ].join('');

@@ -1,11 +1,11 @@
 {
     "title": "Koala Corp",
-    "name": "koala-corp-web",
+    "name": "KoalaCorpWeb",
     "version": "1.0.0",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "A Koala Corp design based upon the freelancer portfolio HTML theme for Bootstrap.",
+    "description": "A Koala Corp design for Koala Corp web!",
     "keywords": [
         "css",
         "sass",
