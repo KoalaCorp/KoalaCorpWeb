@@ -1,7 +1,7 @@
 {
     "title": "Koala Corp",
     "name": "KoalaCorpWeb",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
