@@ -9727,6 +9727,20 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.about-avatar {
+  width: 13rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 992px) {
+  .about-avatar {
+    width: 18rem;
+    margin-left: 4rem;
+  }
+}
+
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #e9ecef;
